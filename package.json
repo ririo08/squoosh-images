@@ -16,7 +16,7 @@
     "@antfu/eslint-config-vue": "^0.43.1",
     "@nuxt/devtools": "latest",
     "@nuxtjs/eslint-module": "^4.1.0",
-    "@quasar/extras": "^1.16.8",
+    "@quasar/extras": "^1.16.9",
     "@squoosh/lib": "^0.5.3",
     "eslint": "^8.54.0",
     "nuxt": "^3.8.2",

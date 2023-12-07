@@ -15,8 +15,8 @@ devDependencies:
     specifier: ^4.1.0
     version: 4.1.0(eslint@8.54.0)(vite@4.5.0)(webpack@5.89.0)
   '@quasar/extras':
-    specifier: ^1.16.8
-    version: 1.16.8
+    specifier: ^1.16.9
+    version: 1.16.9
   '@squoosh/lib':
     specifier: ^0.5.3
     version: 0.5.3
@@ -28,7 +28,7 @@ devDependencies:
     version: 3.8.2(eslint@8.54.0)(sass@1.69.5)(typescript@5.3.2)(vite@4.5.0)
   nuxt-quasar-ui:
     specifier: ^2.0.6
-    version: 2.0.6(@quasar/extras@1.16.8)(quasar@2.14.1)
+    version: 2.0.6(@quasar/extras@1.16.9)(quasar@2.14.1)
   quasar:
     specifier: ^2.14.1
     version: 2.14.1
@@ -1574,8 +1574,8 @@ packages:
     resolution: {integrity: sha512-C16M+IYz0rgRhWZdCmK+h58JMv8vijAA61gmz2rspCSwKwzBebpdcsiUmwrtJRdphuY30i6BSLEOP8ppbNLyLg==}
     dev: true
 
-  /@quasar/extras@1.16.8:
-    resolution: {integrity: sha512-mNSwQ6wkIVoAemhYdLm9q/FVqLHmVONZgCYdLLeqpakKNsR0r/zHQnCngzdDaXI7veYEvE0uW1gJa1wdQsxXxA==}
+  /@quasar/extras@1.16.9:
+    resolution: {integrity: sha512-SlOhwzXyPQHWgQIS2ncyDdYdksCJvUYNtgsDQqzAKEG3r3d/ejOxvThle79HTK3Q6HB+gQWFG21Ux00Osr5XSw==}
     dev: true
 
   /@rollup/plugin-alias@5.0.1(rollup@4.5.0):
@@ -5901,14 +5901,14 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /nuxt-quasar-ui@2.0.6(@quasar/extras@1.16.8)(quasar@2.14.1):
+  /nuxt-quasar-ui@2.0.6(@quasar/extras@1.16.9)(quasar@2.14.1):
     resolution: {integrity: sha512-42ogT4HQgQ7IMrI9XOzrVLPMOu8b/onHr6ZX+hcLJ8Hrb+zei7hJj3rtT+l6ylG6h0aiBSmzAKJV/NqJrH89Fw==}
     peerDependencies:
       '@quasar/extras': ^1
       quasar: ^2.8.0
     dependencies:
       '@nuxt/kit': 3.8.2
-      '@quasar/extras': 1.16.8
+      '@quasar/extras': 1.16.9
       magic-string: 0.30.5
       magicast: 0.2.11
       p-memoize: 7.1.1
