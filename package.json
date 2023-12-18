@@ -20,7 +20,7 @@
     "@squoosh/lib": "^0.5.3",
     "eslint": "^8.55.0",
     "nuxt": "^3.8.2",
-    "nuxt-quasar-ui": "^2.0.6",
+    "nuxt-quasar-ui": "^2.0.7",
     "quasar": "^2.14.1",
     "sass": "^1.69.5",
     "vue": "^3.3.10",
