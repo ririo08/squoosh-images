@@ -27,8 +27,8 @@ devDependencies:
     specifier: ^3.8.2
     version: 3.8.2(eslint@8.56.0)(sass@1.69.5)(typescript@5.3.2)(vite@4.5.0)
   nuxt-quasar-ui:
-    specifier: ^2.0.6
-    version: 2.0.6(@quasar/extras@1.16.9)(quasar@2.14.1)
+    specifier: ^2.0.7
+    version: 2.0.7(@quasar/extras@1.16.9)(quasar@2.14.1)
   quasar:
     specifier: ^2.14.1
     version: 2.14.1
@@ -155,7 +155,7 @@ packages:
       '@babel/helper-compilation-targets': 7.22.15
       '@babel/helper-module-transforms': 7.23.3(@babel/core@7.23.3)
       '@babel/helpers': 7.23.4
-      '@babel/parser': 7.23.4
+      '@babel/parser': 7.23.5
       '@babel/template': 7.22.15
       '@babel/traverse': 7.23.4
       '@babel/types': 7.23.4
@@ -444,7 +444,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.23.4
-      '@babel/parser': 7.23.4
+      '@babel/parser': 7.23.5
       '@babel/types': 7.23.4
     dev: true
 
@@ -458,7 +458,7 @@ packages:
       '@babel/helper-function-name': 7.23.0
       '@babel/helper-hoist-variables': 7.22.5
       '@babel/helper-split-export-declaration': 7.22.6
-      '@babel/parser': 7.23.4
+      '@babel/parser': 7.23.5
       '@babel/types': 7.23.4
       debug: 4.3.4
       globals: 11.12.0
@@ -2333,7 +2333,7 @@ packages:
   /@vue/compiler-core@3.3.9:
     resolution: {integrity: sha512-+/Lf68Vr/nFBA6ol4xOtJrW+BQWv3QWKfRwGSm70jtXwfhZNF4R/eRgyVJYoxFRhdCTk/F6g99BP0ffPgZihfQ==}
     dependencies:
-      '@babel/parser': 7.23.4
+      '@babel/parser': 7.23.5
       '@vue/shared': 3.3.9
       estree-walker: 2.0.2
       source-map-js: 1.0.2
@@ -2371,7 +2371,7 @@ packages:
   /@vue/compiler-sfc@3.3.9:
     resolution: {integrity: sha512-wy0CNc8z4ihoDzjASCOCsQuzW0A/HP27+0MDSSICMjVIFzk/rFViezkR3dzH+miS2NDEz8ywMdbjO5ylhOLI2A==}
     dependencies:
-      '@babel/parser': 7.23.4
+      '@babel/parser': 7.23.5
       '@vue/compiler-core': 3.3.9
       '@vue/compiler-dom': 3.3.9
       '@vue/compiler-ssr': 3.3.9
@@ -2414,7 +2414,7 @@ packages:
   /@vue/reactivity-transform@3.3.9:
     resolution: {integrity: sha512-HnUFm7Ry6dFa4Lp63DAxTixUp8opMtQr6RxQCpDI1vlh12rkGIeYqMvJtK+IKyEfEOa2I9oCkD1mmsPdaGpdVg==}
     dependencies:
-      '@babel/parser': 7.23.4
+      '@babel/parser': 7.23.5
       '@vue/compiler-core': 3.3.9
       '@vue/shared': 3.3.9
       estree-walker: 2.0.2
@@ -2799,7 +2799,7 @@ packages:
     resolution: {integrity: sha512-Q0DjXK4ApbVoIf9GLyCo252tUH44iTnD/hiJ2TQaJeydYWSpKk0sI34+WMel8S9Wt5pbLgG02oJ+gkgX5DV3sQ==}
     engines: {node: '>=16.14.0'}
     dependencies:
-      '@babel/parser': 7.23.4
+      '@babel/parser': 7.23.5
       '@rollup/pluginutils': 5.0.5(rollup@4.5.0)
       pathe: 1.1.1
     transitivePeerDependencies:
@@ -2810,7 +2810,7 @@ packages:
     resolution: {integrity: sha512-kbL7ERlqjXubdDd+szuwdlQ1xUxEz9mCz1+m07ftNVStgwRb2RWw+U6oKo08PAvOishMxiqz1mlJyLl8yQx2Qg==}
     engines: {node: '>=16.14.0'}
     dependencies:
-      '@babel/parser': 7.23.4
+      '@babel/parser': 7.23.5
       '@rollup/pluginutils': 5.0.5(rollup@4.5.0)
       pathe: 1.1.1
     transitivePeerDependencies:
@@ -2828,7 +2828,7 @@ packages:
     resolution: {integrity: sha512-NsyHMxBh4dmdEHjBo1/TBZvCKxffmZxRYhmclfu0PP6Aftre47jOHYaYaNqJcV0bxihxFXhDkzLHUwHc0ocd0Q==}
     engines: {node: '>=16.14.0'}
     dependencies:
-      '@babel/parser': 7.23.4
+      '@babel/parser': 7.23.5
       ast-kit: 0.9.5
     transitivePeerDependencies:
       - rollup
@@ -5330,7 +5330,7 @@ packages:
   /magicast@0.2.11:
     resolution: {integrity: sha512-6saXbRDA1HMkqbsvHOU6HBjCVgZT460qheRkLhJQHWAbhXoWESI3Kn/dGGXyKs15FFKR85jsUqFx2sMK0wy/5g==}
     dependencies:
-      '@babel/parser': 7.23.4
+      '@babel/parser': 7.23.5
       '@babel/types': 7.23.4
       recast: 0.23.4
     dev: true
@@ -5901,8 +5901,8 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /nuxt-quasar-ui@2.0.6(@quasar/extras@1.16.9)(quasar@2.14.1):
-    resolution: {integrity: sha512-42ogT4HQgQ7IMrI9XOzrVLPMOu8b/onHr6ZX+hcLJ8Hrb+zei7hJj3rtT+l6ylG6h0aiBSmzAKJV/NqJrH89Fw==}
+  /nuxt-quasar-ui@2.0.7(@quasar/extras@1.16.9)(quasar@2.14.1):
+    resolution: {integrity: sha512-gTTBEmHkxKMQCYcYp4JqCuz4AOq4e7i7FH4u/0TPjjXVdStDQ1Caf3te9IN6CXfMs/0DFcFIaXyDgeNDX/o1Dw==}
     peerDependencies:
       '@quasar/extras': ^1
       quasar: ^2.8.0
