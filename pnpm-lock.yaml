@@ -28,10 +28,10 @@ devDependencies:
     version: 3.9.3(eslint@8.56.0)(sass@1.69.7)(typescript@5.3.2)(vite@5.0.11)
   nuxt-quasar-ui:
     specifier: ^2.0.7
-    version: 2.0.7(@quasar/extras@1.16.9)(quasar@2.14.2)
+    version: 2.0.7(@quasar/extras@1.16.9)(quasar@2.14.4)
   quasar:
-    specifier: ^2.14.2
-    version: 2.14.2
+    specifier: ^2.14.4
+    version: 2.14.4
   sass:
     specifier: ^1.69.7
     version: 1.69.7
@@ -5820,7 +5820,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /nuxt-quasar-ui@2.0.7(@quasar/extras@1.16.9)(quasar@2.14.2):
+  /nuxt-quasar-ui@2.0.7(@quasar/extras@1.16.9)(quasar@2.14.4):
     resolution: {integrity: sha512-gTTBEmHkxKMQCYcYp4JqCuz4AOq4e7i7FH4u/0TPjjXVdStDQ1Caf3te9IN6CXfMs/0DFcFIaXyDgeNDX/o1Dw==}
     peerDependencies:
       '@quasar/extras': ^1
@@ -5831,7 +5831,7 @@ packages:
       magic-string: 0.30.5
       magicast: 0.2.11
       p-memoize: 7.1.1
-      quasar: 2.14.2
+      quasar: 2.14.4
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -6632,8 +6632,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /quasar@2.14.2:
-    resolution: {integrity: sha512-f5KliWtM5BEuFsDU4yvuP+dlVIWZNrGu5VpWFsxzjpoykcP4B2HIOUiCl3mx2NCqERHd4Ts0aeioRkt9TTeExA==}
+  /quasar@2.14.4:
+    resolution: {integrity: sha512-l+bSGVMcesVydX1IeWyAAjqCRfigwaonIDqxodvNjZwkifZF29YdCMh9bief2l9k9r23kMl7P5Oqs6EA5ja4ag==}
     engines: {node: '>= 10.18.1', npm: '>= 6.13.4', yarn: '>= 1.21.1'}
     dev: true
 
