@@ -19,7 +19,7 @@
     "@quasar/extras": "^1.16.9",
     "@squoosh/lib": "^0.5.3",
     "eslint": "^8.56.0",
-    "nuxt": "^3.9.3",
+    "nuxt": "^3.11.1",
     "nuxt-quasar-ui": "^2.0.7",
     "quasar": "^2.14.2",
     "sass": "^1.69.7",
